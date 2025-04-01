@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>results-summary-component-main</title>
+    <link type="image/svg" rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-[#D3D4FF] flex justify-center">
+    <div class="bg-white grid grid-cols-1 md:grid-cols-2 my-14 md:my-32 max-h-[auto] md:w-[80%] lg:w-[50%] rounded-lg w-[80%]">
+        <!-- First column -->
+        <div class="p-8 bg-gradient-to-b from-[#6743FF] to-[#312CEA] rounded-lg flex flex-col justify-center items-center">
+            <h1 class="font-medium flex justify-center text-gray-200 my-3">Your Result</h1>
+            <div class="bg-gradient-to-b from-[#4E21CA] to-[#312CEA00] rounded-full flex flex-col items-center justify-center text-white h-40 w-40 px-10">
+                <span class="text-5xl font-bold px-20">76</span>
+                <span class="text-gray-400 text-sm">of 100</span>
+            </div>
+            <h2 class="font-semibold text-white text-lg my-4">Great</h2>
+            <p class="text-sm text-gray-200">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <!-- Second column -->
+        <div class="mx-5">
+            <h1 class="text-base font-semibold mt-12 mb-6">Summary</h1>
+            <div class="flex items-center bg-[#fff0f0] rounded my-3 text-sm h-10">
+                <img src="./images/icon-reaction.svg" alt="icon-reaction" class="mx-2">
+                <span class="text-[#FF5757] font-semibold">Reaction</span>
+                <span class="text-black ml-16 text-sm font-semibold">80<a class="text-gray-500"> / 100</a></span>
+            </div>
+            <div class="flex items-center bg-[#fff7e8] rounded my-3 text-sm h-10">
+                <img src="./images/icon-memory.svg" alt="icon-reaction" class="mx-2">
+                <span class="text-[#FFB21E] font-semibold">Memory</span>
+                <span class="text-black ml-16 text-sm font-semibold">92<a class="text-gray-500"> / 100</a></span>
+            </div>
+            <div class="flex items-center bg-[#e1fff8] rounded my-3 text-sm h-10">
+                <img src="./images/icon-verbal.svg" alt="icon-reaction" class="mx-2">
+                <span class="text-[#00BD91] font-semibold">Verbal</span>
+                <span class="text-black ml-20 text-sm font-semibold">61<a class="text-gray-500"> / 100</a></span>
+            </div>
+            <div class="flex items-center bg-[#eaeaf1] rounded my-3 text-sm h-10">
+                <img src="./images/icon-visual.svg" alt="icon-reaction" class="mx-2">
+                <span class="text-[#2F3FD1] font-semibold">Visual</span>
+                <span class="text-black ml-20 text-sm font-semibold">73<a class="text-gray-500"> / 100</a></span>
+            </div>
+            <div class="bg-black rounded-2xl flex justify-center items-center hover:bg-blue-800 text-white h-12 my-8">
+                <button>Continue</button>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
